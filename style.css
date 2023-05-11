@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(50% 50% at 0 10%, #FFE6E6 0%, rgba(217, 217, 217, 0) 100%);
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.navbar .navbar-brand {
+    font-size: 40px;
+    color: white;
+    font-family: arbutus;
+}
+
+.navbar .menu {
+    gap: 20px;
+}
+
+.navbar .menu i {
+    color: white;
+    font-size: 30px;
+}
+
+.container .row .top_sec_2 {
+    font-weight: 700;
+}
+
+.container .sec_our .sec_our_1 {
+    font-weight: 400;
+}
+
+.sec_down {
+    padding-top: 40px;
+    background-color: #EFEFEF;
+    padding-bottom: 50px;
+}
+
+.svg_image_1 {
+    max-width: 391px;
+    width: 100%;
+}
+
+.btn_1 {
+    background-color: #0066FF;
+    color: white;
+    border-radius: 7px;
+    border-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    transition: 0.7s;
+}
+
+.btn_1:active,
+.btn_1:hover {
+    background-color: white;
+    color: #0066FF;
+    border: solid 1px #0066FF;
+    transform: translate(0, -5%);
+    box-shadow: rgb(7, 33, 182) 0px 50px 100px -20px, rgb(54, 59, 133) 0px 30px 60px -30px;
+}
+
+.btn_2 {
+    background-color: #23A6F0;
+    color: white;
+    border-radius: 100%;
+    border-color: white;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+
+/* .menu span{
+    padding: 20px 0;
+} */
+.btn_2:active,
+.btn_2:hover {
+    background-color: white;
+    color: #23A6F0;
+    transform: translate(0, -5%);
+    box-shadow: rgb(1, 1, 5) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
+}
+
+.btn_3 {
+    background-color: #0066FF;
+    color: white;
+    border-radius: 100%;
+    border-color: white;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.btn_3:active,
+.btn_3:hover {
+    transform: translate(0, -30%);
+    box-shadow: rgb(0, 0, 0) 0px 50px 100px -20px, rgb(0, 0, 0) 0px 30px 60px -30px;
+}
+
+.hptag {
+    cursor: pointer;
+}
+
+.hptag:hover {
+    color: #0066FF;
+}
+
+@media screen and (max-width:766px) {
+    .media_rep {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .p_align{
+        text-align: center;
+    }
+    .m_buttom{
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+}
